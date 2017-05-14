@@ -4,9 +4,9 @@ var n,counter,counte,days,min,max:integer;
 var city_data:string;
 var city_list:array[1..31] of string;
 var city_days:array[1..31] of integer;
-const max_message='Максимальные осадки в городе:';
-const min_message='Миниимальные осадки в городе:';
-const mm=' мм';
+const max_message='РњР°РєСЃРёРјР°Р»СЊРЅС‹Рµ РѕСЃР°РґРєРё РІ РіРѕСЂРѕРґРµ:';
+const min_message='РњРёРЅРёРёРјР°Р»СЊРЅС‹Рµ РѕСЃР°РґРєРё РІ РіРѕСЂРѕРґРµ:';
+const mm=' РјРј';
 
 begin
 
