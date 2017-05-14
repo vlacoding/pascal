@@ -1,10 +1,8 @@
 program cc;
-uses crt;
 var num,nu,res,i,k:integer;
 re:array[1..100]of word;
 begin
-writeln('--------------------ÏÅĞÅÂÎÄ ÈÇ 10ÑÑ Â 2ÑÑ--------------------');
-write('×èñëî â 10ññ: ');
+write('Ğ§Ğ¸ÑĞ»Ğ¾ Ğ² 10ÑÑ: ');
 readln(num);
 k:=1;
 nu:=0;
@@ -14,7 +12,7 @@ num:=num div 2;
 re[k]:=nu;
 k:=k+1;
 end;
-write('×èñëî â 2ññ : ');
+write('Ğ§Ğ¸ÑĞ»Ğ¾ Ğ² 2ÑÑ : ');
 for i:=1 to k-1 do write(re[k-i]);
 writeln;
 end.
