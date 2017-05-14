@@ -1,4 +1,4 @@
-program zadanie1;  // автор программы: Максим Власов
+program zadanie1;
 var number:integer;
 var numb2r:string;
 const y='YES';
